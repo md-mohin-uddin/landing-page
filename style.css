@@ -1,0 +1,448 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f7f8fc;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #eaeaea;
+}
+.navbar-brand img {
+  max-height: 40px;
+}
+.navbar-nav {
+  flex-grow: 1;
+  justify-content: center;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #1a1a1a;
+}
+.nav-link {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+  color: #101010;
+}
+.btn-get-started,
+.portfolio-btn {
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 8px 24px;
+  color: black;
+  font-weight: bold;
+  background: transparent;
+}
+.btn-get-started:hover,
+.btn-custom:hover {
+  background: black;
+  color: white;
+}
+.header {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #f0f4fd 0%, #ffffff 100%);
+}
+.header p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.header h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn-custom {
+  padding: 12px 30px;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+}
+.portfolio-btn {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  margin-right: 10px;
+}
+.portfolio-btn:hover {
+  background: black;
+  color: white;
+}
+
+/* Stats Section */
+.stats-section {
+  font-family: "Inter Display";
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 1px solid #eaeaea;
+  background: linear-gradient(
+    180deg,
+    #ffffff 15.14%,
+    rgba(255, 255, 255, 0.9) 76.62%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+}
+.stats-item {
+  display: inline-block;
+  margin: 30px 50px;
+}
+.stats-item h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 65.28px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+.stats-item p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Quote Section */
+.quote-section {
+  text-align: center;
+  padding: 60px 20px;
+  width: 70%;
+  margin: auto;
+}
+.quote-section h3 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 54.4px;
+  text-align: center;
+  color: #737373;
+  margin-bottom: 20px;
+}
+.quote-section h3 span {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 54.4px;
+  text-align: center;
+
+  font-weight: bold;
+  color: black;
+}
+.quote-author {
+  font-family: "Inter Display";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.2px;
+  text-align: center;
+}
+.quote-author small {
+  font-family: Inter Display;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.76px;
+  text-align: center;
+  display: block;
+  color: #181732;
+}
+
+/* Partners Section */
+.partners-section {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #eaeaea;
+}
+.partners-logo img {
+  margin: 15px 30px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.services-section {
+  padding: 0 50px;
+  height: 682px;
+  background-color: #0c0a25;
+  margin: 30px 30px;
+  margin: auto;
+}
+.services-left {
+  text-align: left;
+  width: Fixed (282px) px;
+  height: Hug (271px) px;
+  top: 121px;
+  gap: 39px;
+  opacity: 0px;
+}
+.services-left h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+.services-left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.services-left .btn-learn-more {
+  background-color: #00e676;
+  color: #0a0b1b;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.services-left .btn-learn-more:hover {
+  background-color: #00c864;
+  color: #fff;
+}
+.development {
+  background-color: #c5e7ff;
+}
+.design {
+  background-color: #d3fee8;
+}
+.services-right .card {
+  width: Hug (720px) px;
+  height: Hug (473px) px;
+  top: 121px;
+  gap: 32px;
+  opacity: 0px;
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+.services-right .card:hover {
+  transform: translateY(-10px);
+}
+.services-right .card-body {
+  border-radius: 15px;
+  padding: 30px;
+}
+.services-right .card-body h5 {
+  font-family: Inter Display;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: #000000;
+}
+.services-right .card-body p {
+  font-family: Inter Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #606060;
+}
+.trustpilot {
+  padding-top: 60px;
+}
+.trustpilot span {
+  margin: 0 10px;
+  color: #fff;
+}
+
+.fa-solid {
+  color: #00e676;
+}
+.fa-regular {
+  background-color: #00e676;
+  color: white;
+  padding: auto;
+}
+
+.case-studies-section {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.case-studies-section h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.case-studies-section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #4c4c4c;
+  margin-bottom: 40px;
+}
+.case-study-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+.case-study-card:hover {
+  transform: scale(1.05);
+}
+.case-study-card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.case-study-card .card-body {
+  background-color: #ffffff;
+  padding: 20px;
+}
+.case-study-card .card-body h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+}
+.case-study-card .case-study-labels {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.case-study-labels span {
+  background-color: #e0f7fa;
+  color: #00acc1;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.testimonial-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+.testimonial-section h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.testimonial-section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #4c4c4c;
+  margin-bottom: 40px;
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+.testimonial-card {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 20px;
+  background: #ffffff;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.testimonial-card img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.testimonial-card h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.testimonial-card small {
+  font-size: 14px;
+  color: #999;
+}
+.testimonial-card .stars {
+  color: #ffa500;
+  margin: 10px 0;
+}
+.testimonial-card .unfill-star {
+  color: #ffa500;
+  background-color: white;
+  margin: 10px 0;
+}
+.testimonial-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.testimonial-card a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.project-start {
+  width: 1080px;
+  height: 502px;
+  top: 72px;
+  left: 180px;
+  gap: 0px;
+  border-radius: 32px 0px 0px 0px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+}
+.project-start-left {
+  font-size: 24px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+.footer {
+  background-color: #92f4ae;
+  padding: 40px 0;
+  color: #333;
+}
+
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .contact-info,
+.footer .expertise {
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

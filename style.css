@@ -296,6 +296,12 @@ body {
   color: #4c4c4c;
   margin-bottom: 40px;
 }
+.case-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
 .case-study-card {
   border: none;
   border-radius: 15px;
@@ -316,7 +322,6 @@ body {
 }
 .case-study-card .card-body h5 {
   font-size: 20px;
-  font-weight: bold;
   color: #333333;
 }
 .case-study-card .case-study-labels {
@@ -337,6 +342,7 @@ body {
   text-align: center;
   background: #ffffff;
 }
+
 .testimonial-section h2 {
   font-size: 48px;
   font-weight: 600;
@@ -345,6 +351,7 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .testimonial-section p {
   font-size: 16px;
   font-weight: 400;
@@ -353,19 +360,26 @@ body {
   color: #4c4c4c;
   margin-bottom: 40px;
 }
-.carousel-item {
+
+.card {
   display: flex;
+  align-content: center;
+  align-items: center;
   justify-content: center;
+  border: none;
 }
 .testimonial-card {
   border: 1px solid #eaeaea;
   border-radius: 10px;
   padding: 20px;
   background: #ffffff;
-  max-width: 350px;
+  width: 400px;
+  height: 500px;
   text-align: center;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
 }
+
 .testimonial-card img {
   border-radius: 50%;
   width: 80px;
@@ -373,33 +387,50 @@ body {
   object-fit: cover;
   margin-bottom: 20px;
 }
+
 .testimonial-card h5 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 .testimonial-card small {
   font-size: 14px;
   color: #999;
 }
+
 .testimonial-card .stars {
   color: #ffa500;
   margin: 10px 0;
 }
+
 .testimonial-card .unfill-star {
-  color: #ffa500;
-  background-color: white;
+  color: #ddd;
   margin: 10px 0;
 }
+
 .testimonial-card p {
   font-size: 16px;
   color: #666;
   margin-bottom: 20px;
 }
+
 .testimonial-card a {
   text-decoration: none;
   font-weight: bold;
   color: #007bff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #333;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .project-start {
@@ -488,8 +519,7 @@ body {
 }
 .rights {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 27.63px;
-  text-align: center;
   color: #ffffffcc;
 }
